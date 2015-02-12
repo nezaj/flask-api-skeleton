@@ -1,0 +1,48 @@
+# Compiled Python
+__pycache__/
+*.py[cod]
+
+# Cached Flask Assets
+.webassets-cache/
+
+# Asset Bundles
+*.min.css
+*.min.js
+
+# Project environment variables
+.env
+
+# Logs and databases #
+*.log
+*dev.db
+
+# Coverage and tests
+.coverage
+pytests.xml
+coverage.xml
+
+# Packages
+*.egg
+*.egg-info
+__pycache__
+
+# Vim history
+.netrwhist
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor detritus
+*~
+*#
+.#*
+.*.swp
+
+# Ignore any example reference code for reference
+examples/
